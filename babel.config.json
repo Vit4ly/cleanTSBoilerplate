@@ -1,0 +1,11 @@
+{
+  "presets": [
+    ["@babel/preset-env", {"modules": "auto"}],
+    "@babel/preset-typescript"
+  ],
+  "plugins": [
+    "transform-amd-to-commonjs",
+    "@babel/plugin-transform-runtime",
+    "@babel/proposal-class-properties"
+  ]
+}
